@@ -5,8 +5,9 @@
 :-------------------------:|:-------------------------:
 [Windows](https://www.microsoft.com/store/apps/9N3TWLM4C6TW)             |  [Mac](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-mac.zip)
 ### Features
+- Auto Post Craigslist gigs, services and classifieds.
 - Idle mode relists when your ad category hasn't been posted in over 15 minutes.
-- Compete mode relists when your competitors post their ad over yours based on the keywords in your ad title.
+- Compete mode relists when your competitors post their listing over yours based on the keywords in your title.
 - Interval mode reposts minutes, hours, days, month, etc...
 - One-Click repost listings.
 - Relist postings on auto-pilot. 
@@ -14,7 +15,7 @@
 - Persistant login sessions.
 - Run in background system tray.
 
-Repost CraigsList listings automatically, now you no longer need to manually relist your CraigsList postings, simply use this app to do that for you automatically, now you don't need to manually click 10 different pages anymore, do it all in one-click or better yet no clicks at all with this apps auto-pilot features.
+Repost Craigslist listings automatically, now you no longer need to manually relist your CraigsList postings, simply use this app to do that for you automatically, now you don't need to manually click 10 different pages anymore, do it all in one-click or better yet no clicks at all with this apps auto-pilot features.
 
 Relist on an interval basis or use compete mode to relist automatically anytime a competitor tries to post over your listing. This app can also run in the background system tray so you can monitor and relist your posts whenever they get buried under other listings. Repost in as fast as one-click, don't waste your time clicking over and over and over and again.
 ##### Privacy
