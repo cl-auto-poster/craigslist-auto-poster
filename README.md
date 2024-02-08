@@ -5,7 +5,7 @@
 :-------------------------:|:-------------------------:
 [Windows](https://apps.microsoft.com/detail/9N3TWLM4C6TW)             |  [Mac](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-mac.zip)
 ### Features
-- Auto post Craigslist gigs, services and classifieds.
+- Craigslist auto posting gigs and services.
 - Idle mode relists when your ad category hasn't been posted in over 15 minutes.
 - Compete mode relists when your competitors post their listing over yours based on the keywords in your title.
 - Interval mode reposts minutes, hours, days, month, etc...
