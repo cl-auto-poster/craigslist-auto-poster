@@ -5,7 +5,7 @@
 :-------------------------:|:-------------------------:
 [Windows](https://apps.microsoft.com/detail/9N3TWLM4C6TW)             |  [Mac](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-mac.zip)
 
-Craigslist auto poster is a posting software tool that enables users to repost their postings on auto-pilot from their Windows or Mac computer. 
+Craigslist auto poster is a posting tool that enables users to repost their postings on auto-pilot from their Windows or Mac computer. 
 ### Features
 - Auto post Craigslist gigs and services on auto-pilot.
 - Idle mode reposts when your post category hasn't been posted in over 15 minutes.
