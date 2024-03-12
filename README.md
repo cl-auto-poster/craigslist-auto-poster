@@ -15,4 +15,4 @@
 - Run in background system tray.
 - Compatible with Windows and Mac.
 ##### Privacy
-We do not collect any information at all simply because we are not interested in storing your information which would increase our costs and liability, therefore we are only interested in developing high quality software for anyone to use, having said that we are not sure why the rest of the world doesn't also not collect info?
+CL Auto Poster does not collect any information at all simply because we are not interested in storing your information which would increase our costs and liability, therefore we are only interested in developing high quality software for anyone to use, having said that we are not sure why the rest of the world doesn't also not collect info?
