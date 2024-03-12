@@ -4,8 +4,6 @@
 [![Craigslist Auto Poster Windows](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/windows.png?raw=true)](https://apps.microsoft.com/detail/9N3TWLM4C6TW)  |  [![Craigslist Auto Poster Mac](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/mac.png?raw=true)](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-mac.zip)
 :-------------------------:|:-------------------------:
 [Windows](https://apps.microsoft.com/detail/9N3TWLM4C6TW)             |  [Mac](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-mac.zip)
-
-Craigslist auto poster is a posting tool which allows users to repost their postings with auto-pilot from the convenience of their Windows or Mac computer. 
 ### Features
 - Auto post Craigslist gigs and services on auto-pilot.
 - Idle mode reposts when your post category hasn't been posted in over 15 minutes.
