@@ -1,9 +1,9 @@
 # Craigslist Auto Poster
 ![Craigslist Auto Poster](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/craigslistrelister.png?raw=true)
 ## Craigslist Auto Poster Download
-[![Craigslist Auto Poster Windows](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/windows.png?raw=true)](https://apps.microsoft.com/detail/9N3TWLM4C6TW)  |  [![Craigslist Auto Poster Mac](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/mac.png?raw=true)](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-mac.zip)
+[![Craigslist Auto Poster Windows](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/windows.png?raw=true)](https://apps.microsoft.com/detail/9N3TWLM4C6TW)  |  [![Craigslist Auto Poster Mac](https://github.com/craigslist-automated/Craigslist-auto-poster-free/blob/main/images/mac.png?raw=true)](https://github.com/software-app-download/windows-mac/raw/main/craigslist-auto-poster-mac.zip?download=)
 :-------------------------:|:-------------------------:
-[Windows](https://apps.microsoft.com/detail/9N3TWLM4C6TW)             |  [Mac](https://github.com/appdownloads/software/raw/main/craigslist-auto-poster-mac.zip)
+[Windows](https://apps.microsoft.com/detail/9N3TWLM4C6TW)             |  [Mac](https://github.com/software-app-download/windows-mac/raw/main/craigslist-auto-poster-mac.zip?download=)
 ### Features
 - Auto post Craigslist gigs and services on auto-pilot.
 - Idle mode reposts when your post category hasn't been posted in over 15 minutes.
