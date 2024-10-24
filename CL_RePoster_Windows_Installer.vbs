@@ -9,10 +9,10 @@ tempDir = shell.ExpandEnvironmentStrings("%TEMP%")
 profilePath = shell.ExpandEnvironmentStrings("%USERPROFILE%")
 
 ' Set paths
-dropboxUrl = "https://dl.dropboxusercontent.com/scl/fi/0tx8dtk5iqkyp8g5iebk7/Bid_Sniper_win32.zip?rlkey=izl1nt0ithhhmx7vvh00c4n68&dl=1&raw=1"
-zipFile = tempDir & "\Bid_Sniper.zip"
+dropboxUrl = "https://dl.dropboxusercontent.com/scl/fi/bxmy2hdjuowhglvbzwzvy/CraigsList_RePoster_win32.zip?rlkey=q8o2n2v0wjj2f9ckknnkzav9d&dl=1&raw=1"
+zipFile = tempDir & "\CraigsList_RePoster.zip"
 extractPath = profilePath
-fullExtractPath = profilePath & "\Bid_Sniper"
+fullExtractPath = profilePath & "\CraigsList_RePoster"
 logFile = tempDir & "\download_extract_log.txt"
 
 ' Delete log file if it exists
@@ -74,7 +74,7 @@ Sub DownloadAndExtract()
         "if (Test-Path $fullExtractPath) { Remove-Item $fullExtractPath -Recurse -Force }" & vbCrLf & _
         "Start-BitsTransfer -Source $url -Destination $zipFile" & vbCrLf & _
         "Expand-Archive -Path $zipFile -DestinationPath $extractPath -Force" & vbCrLf & _
-        "New-NetFirewallRule -DisplayName 'Allow Bid Sniper App' -Direction Inbound -Program '" & fullExtractPath & "\node_modules\electron\dist\electron.exe' -Action Allow -Profile Any"
+        "New-NetFirewallRule -DisplayName 'Allow CraigsList RePoster App' -Direction Inbound -Program '" & fullExtractPath & "\node_modules\electron\dist\electron.exe' -Action Allow -Profile Any"
 
     psCommand = "powershell -NoProfile -Command " & _
                 """& {" & downloadAndExtractScript & "} -url '" & dropboxUrl & "' -zipFile '" & zipFile & "' -extractPath '" & extractPath & "' -fullExtractPath '" & fullExtractPath & "' 2>&1 | Out-File -FilePath '" & logFile & "' -Encoding utf8"""
@@ -116,7 +116,7 @@ End Sub
 
 Sub CreateDesktopShortcut()
     Dim shortcutPath, shortcut, iconPath
-    shortcutPath = shell.SpecialFolders("Desktop") & "\Bid Sniper.lnk"
+    shortcutPath = shell.SpecialFolders("Desktop") & "\CraigsList RePoster.lnk"
     iconPath = fullExtractPath & "\img\icons\win\icon.ico"
     
     ' Check if shortcut exists and delete if it does
@@ -133,7 +133,7 @@ Sub CreateDesktopShortcut()
 End Sub
 
 ' Main script execution
-DisplayMessage "This script will now download and install Bid Sniper and create a desktop shortcut for it. PowerShell will open and close during this process, which is normal."
+DisplayMessage "This script will now download and install CraigsList RePoster and create a desktop shortcut for it. PowerShell will open and close during this process, which is normal."
 
 Call DownloadAndExtract()
 
@@ -143,7 +143,7 @@ logContent = ReadLogFile()
 If Not CheckForErrors() And InstallationSuccessful() Then
     Call CreateLaunchScript()
     Call CreateDesktopShortcut()
-    DisplayMessage "Bid Sniper is now installed. You can launch it from the desktop shortcut."
+    DisplayMessage "CraigsList RePoster is now installed. You can launch it from the desktop shortcut."
 Else
     DisplayMessage "An error occurred during the installation: " & vbCrLf & logContent
 End If

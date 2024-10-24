@@ -3,13 +3,13 @@
 # Define variables
 TEMP_DIR=$(mktemp -d)
 PROFILE_PATH="$HOME"
-DROPBOX_URL="https://dl.dropboxusercontent.com/scl/fi/fkok6s892cm7kb55vrh6x/Bid_Sniper_darwin.zip?rlkey=p8vrno4uj0jy2ujff7gey0j9e&dl=1&raw=1"
-ZIP_FILE="$TEMP_DIR/Bid_Sniper.zip"
-EXTRACT_PATH="$PROFILE_PATH/Bid_Sniper"
+DROPBOX_URL="https://dl.dropboxusercontent.com/scl/fi/5ql5p4if6fu91208mbcxg/CraigsList_RePoster_darwin.zip?rlkey=lp1arfr2cnslxqrjryc1p08rf&dl=1&raw=1"
+ZIP_FILE="$TEMP_DIR/CraigsList_RePoster.zip"
+EXTRACT_PATH="$PROFILE_PATH/CraigsList_RePoster"
 LOG_FILE="$TEMP_DIR/download_extract_log.txt"
 ICON_PATH="$EXTRACT_PATH/img/icons/mac/icon.icns"
-SHORTCUT_NAME="Bid Sniper"
-APP_NAME="Bid Sniper.app"
+SHORTCUT_NAME="CraigsList RePoster"
+APP_NAME="CraigsList RePoster.app"
 APP_PATH="$HOME/Desktop/$APP_NAME"
 
 # Function to clean up previous installation files
@@ -28,14 +28,14 @@ display_message() {
 
 # Download and extract function
 download_and_extract() {
-    echo "Downloading Bid Sniper..."
+    echo "Downloading CraigsList RePoster..."
     if curl -L -o "$ZIP_FILE" "$DROPBOX_URL" 2>&1 | tee -a "$LOG_FILE"; then
         echo "Download complete. Extracting files..."
 
         mkdir -p "$EXTRACT_PATH"
         if unzip "$ZIP_FILE" -d "$TEMP_DIR" 2>&1 | tee -a "$LOG_FILE"; then
             echo "Extraction complete."
-            mv "$TEMP_DIR/Bid_Sniper/"* "$EXTRACT_PATH"
+            mv "$TEMP_DIR/CraigsList_RePoster/"* "$EXTRACT_PATH"
         else
             echo "An error occurred during extraction. Check the log file for details: $LOG_FILE"
             cat "$LOG_FILE"
@@ -111,13 +111,13 @@ EOF
 # Main script execution
 cleanup_previous_installation
 
-display_message "This script will now download and install Bid Sniper and create a desktop shortcut for it."
+display_message "This script will now download and install CraigsList RePoster and create a desktop shortcut for it."
 
 download_and_extract
 
 if installation_successful; then
     create_launch_script
-    display_message "Bid Sniper is now installed. You can launch it from the desktop shortcut."
+    display_message "CraigsList RePoster is now installed. You can launch it from the desktop shortcut."
 else
     display_message "An error occurred during the installation. Node file not found in the expected location."
     cat "$LOG_FILE"
