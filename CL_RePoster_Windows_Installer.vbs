@@ -117,7 +117,7 @@ End Sub
 Sub CreateDesktopShortcut()
     Dim shortcutPath, shortcut, iconPath
     shortcutPath = shell.SpecialFolders("Desktop") & "\CraigsList RePoster.lnk"
-    iconPath = fullExtractPath & "\img\icons\win\icon.ico"
+    iconPath = fullExtractPath & "\assets\img\icons\win\icon.ico"
     
     ' Check if shortcut exists and delete if it does
     If fso.FileExists(shortcutPath) Then fso.DeleteFile shortcutPath, True
