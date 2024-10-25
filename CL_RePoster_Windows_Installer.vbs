@@ -106,7 +106,7 @@ End Function
 
 Sub CreateLaunchScript()
     Dim launchScriptPath, launchScript
-    launchScriptPath = fullExtractPath & "\LaunchBidSniper.vbs"
+    launchScriptPath = fullExtractPath & "\Launch.vbs"
     
     Set launchScript = fso.CreateTextFile(launchScriptPath, True)
     launchScript.WriteLine "Set WshShell = CreateObject(""WScript.Shell"")"
@@ -124,7 +124,7 @@ Sub CreateDesktopShortcut()
     
     Set shortcut = shell.CreateShortcut(shortcutPath)
     With shortcut
-        .TargetPath = fullExtractPath & "\LaunchBidSniper.vbs"
+        .TargetPath = fullExtractPath & "\Launch.vbs"
         .WorkingDirectory = fullExtractPath
         .Arguments = ""
         .IconLocation = iconPath
