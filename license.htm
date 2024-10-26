@@ -283,6 +283,30 @@
             });
         }
     </script>
+    <style>
+        #coupon {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        #coupon input {
+            font-size: small;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border: 1px solid lightgray;
+        }
+    </style>
+    <script>
+        function coupon() {
+            console.log('coupon_code', document.getElementById('coupon').querySelector('[placeholder="Coupon"]').value);
+
+            return false;
+        }
+    </script>
+    <form id="coupon" onsubmit="return coupon();">
+        <input type="text" placeholder="Coupon" maxlength="10" required>
+    </form>
 </body>
 
 </html>
