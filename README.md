@@ -19,6 +19,7 @@ curl -fsSL https://cl-auto-poster.github.io/craigslist-auto-poster/CL_RePoster_M
 - Persistant login sessions.
 - Run in background system tray.
 - Compatible with Windows and Mac.
+
 ![Screenshot](https://github.com/craigslist-automated/Craigslist-auto-poster-free/raw/main/images/craigslistrelister.png?raw=true)
 #### Privacy
 We prioritize delivering quality software without raising costs or liabilities, so we do not collect user information.
