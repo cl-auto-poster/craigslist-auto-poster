@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraigsList RePoster</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Prism.js CSS for syntax highlighting -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.css" rel="stylesheet" />
+    <!-- Favicon References -->
+    <link rel="icon"
+        href="https://uxwing.com/wp-content/themes/uxwing/download/sport-and-awards/shooting-target-color-icon.svg"
+        type="image/svg+xml">
+    <link rel="icon"
+        href="https://uxwing.com/wp-content/themes/uxwing/download/sport-and-awards/shooting-target-color-icon.png"
+        type="image/png" sizes="32x32">
+    <link rel="icon"
+        href="https://uxwing.com/wp-content/themes/uxwing/download/sport-and-awards/shooting-target-color-icon.png"
+        type="image/png" sizes="16x16">
+    <!-- Prism.js for syntax highlighting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-powershell.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-240SMDTJLW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-240SMDTJLW');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16678923977">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16678923977');
+    </script>
+    <script src="site.js"></script>
+</head>
+
+<body>
+    <h1>CraigsList RePoster</h1>
+    <p>
+        Craigslist Auto Poster is a posting software tool that enables users to repost their postings on auto-pilot for
+        Windows and Mac.
+    </p>
+    <ul class="download">
+        <li>
+            <img src="images/windows.png" alt="">
+            <h2>Windows PowerShell <a href="https://www.youtube.com/watch?v=MR4wrGBBgfM">?</a></h2>
+            <pre><code id="windows-command" class="language-powershell">Invoke-WebRequest -Uri "https://cl-auto-poster.github.io/craigslist-auto-poster/CL_RePoster_Windows_Installer.vbs" -OutFile "$env:TEMP\CL_RePoster_Windows_Installer.vbs"; wscript "$env:TEMP\CL_RePoster_Windows_Installer.vbs"</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('#windows-command')">Copy Install/Update Command</button>
+        </li>
+        <li>
+            <img src="images/mac.png" alt="">
+            <h2>Mac Terminal <a href="https://www.youtube.com/watch?v=VK2tm3c7CrY">?</a></h2>
+            <pre><code id="mac-command" class="language-bash">curl -fsSL https://cl-auto-poster.github.io/craigslist-auto-poster/CL_RePoster_Mac_Installer.sh | bash || { (command -v brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)") && brew install curl && $(command -v /usr/local/opt/curl/bin/curl || command -v /opt/homebrew/opt/curl/bin/curl) -fsSL https://cl-auto-poster.github.io/craigslist-auto-poster/CL_RePoster_Mac_Installer.sh | bash; }</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('#mac-command')">Copy Install/Update Command</button>
+        </li>
+    </ul>
+    <a href="https://www.youtube.com/watch?v=SHo4AXgcpSo">
+        <img src="images/craigslistrelister.png" alt="" width="75%">
+    </a>
+    <ul class="features-list">
+        <li><span class="checkmark">&#10003;</span>Auto post Craigslist gigs and services on auto-pilot.</li>
+        <li><span class="checkmark">&#10003;</span>Idle mode reposts when your post category hasn't been posted in over
+            15 minutes.</li>
+        <li><span class="checkmark">&#10003;</span>Compete mode relists when your competitors post their listing over
+            yours based on the keywords in your title.</li>
+        <li><span class="checkmark">&#10003;</span>Interval mode reposts minutes, hours, days, month, etc...</li>
+        <li><span class="checkmark">&#10003;</span>Single-click repostings.</li>
+        <li><span class="checkmark">&#10003;</span>Quick jump URL address bar.</li>
+        <li><span class="checkmark">&#10003;</span>Persistant login sessions.</li>
+        <li><span class="checkmark">&#10003;</span>Run in background system tray.</li>
+        <li><span class="checkmark">&#10003;</span>Compatible with Windows and Mac.</li>
+    </ul>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://github.com/cl-auto-poster/craigslist-auto-poster/issues">Support</a>
+            </li>
+            <li>
+                <a href="https://github.com/cl-auto-poster/craigslist-auto-poster/discussions">Forum</a>
+            </li>
+            <li>
+                <a href="mailto:help@clreposter.com?subject=Inquiry">Contact</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@shopgoodwill-sniper">YouTube</a>
+            </li>
+        </ul>
+        &copy;
+        Copyright
+        <script>document.write(new Date().getFullYear());</script>
+    </footer>
+</body>
+
+</html>
