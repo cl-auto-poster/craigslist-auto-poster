@@ -3,7 +3,7 @@
 # Define variables
 TEMP_DIR=$(mktemp -d)
 PROFILE_PATH="$HOME"
-DROPBOX_URL="https://dl.dropboxusercontent.com/scl/fi/5ql5p4if6fu91208mbcxg/CraigsList_RePoster_darwin.zip?rlkey=lp1arfr2cnslxqrjryc1p08rf&dl=1&raw=1"
+DROPBOX_URL="https://dl.dropboxusercontent.com/scl/fi/q8fsxx6mxm3ml5h5cam4t/CraigsList_RePoster_darwin.zip?rlkey=kh5vw02z87jkllfrg12llfzch&dl=1&raw=1"
 ZIP_FILE="$TEMP_DIR/CraigsList_RePoster.zip"
 EXTRACT_PATH="$PROFILE_PATH/CraigsList_RePoster"
 LOG_FILE="$TEMP_DIR/download_extract_log.txt"
